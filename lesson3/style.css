@@ -1,0 +1,31 @@
+
+body {
+    background: #eae9d1;
+
+}
+h2 {
+    text-align: center;
+}
+
+.notes {
+    border-left: solid darkorange;
+    margin-left: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.picture {
+   text-align: center;
+  }
+
+img {
+    border: 3px solid whitesmoke;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.text {
+    font-size: 20px;
+    text-align: justify;
+
+}
