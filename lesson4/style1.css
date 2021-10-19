@@ -1,0 +1,232 @@
+.father {
+    background: gray;
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.a {
+    background: dodgerblue;
+    width: 100%;
+   height: 200px;
+}
+.b {
+    background: yellow;
+    width: 60%;
+    height: 200px;
+
+}
+.c {
+    background: mediumpurple;
+    width: 40%;
+    height: 200px;
+}
+
+
+/*Structure 2*/
+
+
+.container {
+    background: lightgrey;
+    width: 1500px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 10px;
+
+
+}
+
+.header {
+    background: orange;
+    width: 100%;
+    height: 200px;
+}
+.main {
+    background: lightblue;
+    width: 100%;
+    height: 800px;
+    display: flex;
+
+}
+.footer {
+    background: lightgreen;
+    width: 100%;
+    height: 200px;
+}
+
+.first {
+    background: yellow;
+    width: 30%;
+    height: 100%;
+}
+.second {
+    background: aqua;
+    width: 70%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.one {
+    background: lightpink;
+    width: 90%;
+    height: 50%;
+    margin: 5px;
+
+}
+.two {
+    background: lightpink;
+    width: 90%;
+    height: 50%;
+    margin: 5px;
+}
+
+
+
+
+
+/*Structure 3*/
+ .main {
+     background: darkgray;
+     width: 1400px;
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+
+.widgets {
+    background: coral;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.moreWidgets {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.big, .bigger,.huge  {
+    background: blue;
+    width: 30%;
+    height: 100%;
+
+}
+
+.contact {
+    background: limegreen;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+
+/*Structure4*/
+
+
+.cont {
+    background: cadetblue;
+    width: 1600px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headr {
+    background: lightblue;
+    width: 100%;
+    height: 150px;
+
+    box-sizing: border-box;
+    margin: 10px;
+}
+.nav {
+    background: cornflowerblue;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.menu {
+    background: lime;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+}
+.mn {
+    background: lightpink;
+    width: 70%;
+    height: 100%;
+
+}
+
+.aside {
+    background: #fd8d48;
+    width: 30%;
+  height: 100%;
+
+}
+
+.foot {
+    background: lightgreen;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
