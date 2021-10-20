@@ -1,0 +1,122 @@
+/*container*/
+
+.container {
+    background: gray;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+/*header*/
+
+.header {
+    background: lightblue;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+/*MainPage*/
+
+.mainPage {
+    /*background: lightgreen;*/
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    display: flex;
+}
+
+/*menu*/
+
+.menu {
+    /*background: mediumpurple;*/
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.hero {
+    background: lightcyan;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+.sidebar {
+    background: green;
+    width: 100%;
+    height: 490px;
+}
+
+
+/*content*/
+
+.content {
+    /*background: bisque;*/
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main {
+    background: coral;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+.extra {
+    background: dodgerblue;
+    width: 100%;
+    height: 200px;
+}
+/*filling*/
+
+.filling {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.images {
+    background: cadetblue;
+    width: 70%;
+    height: 200px;
+
+}
+.posts {
+    background: limegreen;
+    width: 30%;
+    height: 200px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+/*footer*/
+.footer {
+    background: #ab6337;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 0 10px 10px;
+}
+
+
+/*text*/
+.text {
+    font-size: 50px;
+    text-align:center;
+    color: black;
+}

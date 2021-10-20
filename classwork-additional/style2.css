@@ -1,0 +1,389 @@
+
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+.main {
+    background: gray;
+    width: 1500px;
+    height: 1500px;
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+
+}
+/*page1*/
+.page1 {
+    background: lightcyan;
+    width: 30%;
+    height: 1200px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+}
+
+.box1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+}
+
+.header {
+    background: lightgrey;
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.middle {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+}
+
+.box2 {
+    width: 32%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+.list {
+    background: lightgrey;
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inbox3 {
+    /*background: lightgrey;*/
+    width:70%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.box3 {
+    background: lightgrey;
+    width: 280px;
+    height: 360px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+.inbox4 {
+    width: 280px;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    background: lightgrey;
+    width: 60px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 10px;
+    justify-content:space-evenly;
+}
+
+.inbox56 {
+    width: 280px;
+    height: 500px;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.box5 {
+    width: 200px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ .blocks5 {
+    background: lightgrey;
+     width: 80px;
+     height:50px;
+     box-sizing: border-box;
+     margin: 5px;
+}
+
+
+.box6 {
+    width: 80px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+.blocks6 {
+    background: lightgrey;
+    width: 60px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+
+.footer {
+    width: 280px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box7 {
+    background: lightgrey;
+    width: 260px;
+    height: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.box7-1 {
+    background: lightgrey;
+    width: 70px;
+    height: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+
+/*page2*/
+
+.page2 {
+    background: lightcyan;
+    width: 20%;
+    height: 1200px;
+    /*display: flex;*/
+
+    /*flex-wrap: wrap;*/
+
+}
+
+.contain1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.head {
+    background: lightgrey;
+    width: 120px;
+    height: 50px;
+}
+
+/*contain2*/
+
+
+.contain3 {
+    width: 100%;
+    height: 100px;
+    /*box-sizing: border-box;*/
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-item3 {
+    background: lightgrey;
+    width: 96%;
+    height: 85px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.contain4 {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-item4 {
+    background: lightgrey;
+    width: 120px;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.contain5 {
+    width: 100%;
+    height: 350px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box-item5 {
+    background: lightgrey;
+    width: 120px;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.little {
+    background: lightgrey;
+    width: 50px;
+    height: 15px;
+}
+
+.contain6 {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+
+
+}
+.part1 {
+    width: 50%;
+    height: 280px;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-left {
+    background: lightgrey;
+    width: 120px;
+    height: 60px;
+    box-sizing: border-box;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.part2 {
+    width: 50%;
+    height:280px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.item-right {
+    background: lightgrey;
+    width: 83%;
+    height: 245px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+/*page3*/
+.page3 {
+    background: lightcyan;
+    width: 10%;
+    height: 1200px;
+}
+
+.case1 {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.one {
+    background: lightgrey;
+    width: 80%;
+    height: 20px;
+    row-gap: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.case3 {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+.three {
+width: 85%;
+}
+
+.case4 {
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+ .four {
+     background: lightgrey;
+     width: 37%;
+     height: 40px;
+     box-sizing: border-box;
+     margin: 10px;
+
+ }
+
+ .case5 {
+     width: 100%;
+     height: 350px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     border: 2px solid black;
+
+
+
+ }
+ .five {
+     height: 40px;
+ }
+.biggest {
+    height: 100px;
+}
+.case7 {
+    width:90%;
+}

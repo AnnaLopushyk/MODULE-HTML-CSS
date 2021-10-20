@@ -1,0 +1,50 @@
+
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    width: 500px;
+    box-sizing: border-box;
+    /*border:3px solid black;*/
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.home_about {
+    background: yellowgreen;
+    width: 45%;
+    height: 200px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.kabobs {
+    background: yellowgreen;
+    width: 95%;
+    height: 300px;
+    text-align: center;
+}
+
+.menuKabobs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_item {
+    background: yellowgreen;
+    width: 29%;
+    height: 180px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+}
