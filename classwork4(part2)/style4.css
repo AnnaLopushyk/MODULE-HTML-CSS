@@ -1,0 +1,45 @@
+
+
+.container {
+    width: 600px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 5px solid darkgray;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.h100 {
+    height: 100px;
+}
+.header {
+    background: lightgrey;
+    width: 100%;
+}
+
+.main_menu {
+    width: 100%;
+    display: flex;
+}
+
+.menu__left {
+    width: 70%;
+}
+.menu__right {
+    background: lightgrey;
+    width: 30%;
+}
+
+.menu_left__content {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.menu_left__content___item {
+    background: lightgrey;
+    width: 32%;
+
+}

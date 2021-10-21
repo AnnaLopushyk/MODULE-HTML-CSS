@@ -1,0 +1,34 @@
+
+
+
+.container {
+    /*background: darkgray;*/
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header, .main_widgets, .footer {
+    background: dodgerblue;
+    width: 94%;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.main_widgets {
+    background: white;
+    display: flex;
+    column-gap: 36px;
+}
+
+.widgets {
+    background: coral;
+    width: 30%;
+    height: 200px;
+}
+
+.footer {
+    height: 350px;
+}

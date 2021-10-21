@@ -1,0 +1,29 @@
+
+.h200 {
+    height: 200px;
+    background: lightcyan;
+}
+
+.mar {
+    box-sizing: border-box;
+    margin: 5px;
+}
+.container {
+    background: gray;
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+}
+.main__menu {
+    width: 65%;
+}
+
+.main__content {
+    width: 25%;
+    flex-grow: 1;
+}
