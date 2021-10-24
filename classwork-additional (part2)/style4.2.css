@@ -72,15 +72,10 @@ h1 {
 }
 
 .nav_content, .nav_top {
-    width: 80%;
+    width: 85%;
     height: 25%;
 }
 
-p {
-    border-radius: 10px;
-    text-align: center;
-    line-height: 22px;
-}
 /*button ENTER*/
 .button {
     width: 35%;

@@ -7,11 +7,9 @@
         display: flex;
     }
     .menu_left {
-        width: 10%;
+        width: 25%;
         height: 25%;
-    }
-    .nav_top, p {
-        background: lightyellow;
+        background: #e7dc56;
     }
 
     .menu_right {
@@ -20,30 +18,46 @@
 
     .icon {
         padding-top: 10px;
-        background: yellow;
+        background: #e7dc56;
         height: 45% ;
+        border-radius: 15px;
     }
-    h1 {
-       height: 40px;
+
+    .nav_top {
+        background: #f1f8f8;
+        justify-content: center;
     }
+
     .nav_main {
         background: lightgrey;
     }
-    .nav_main>p {
-        background: aliceblue;
-        font-size: 16px;
-        color: darkslateblue;
 
+    h1 {
+        height: 40px;
     }
 
-.main_place {
-   background: silver;
-}
+    .button  {
+        margin-top: 45px;
+    }
+
+    .nav_main>p {
+        background: #eceaea;
+        font-size: 16px;
+        color: darkslateblue;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .main_place {
+         background: silver;
+    }
+
     .square_poz {
-        background: green;
+        background: #b65160;
         height: 100%;
         border-radius: 30%;
     }
+
     h3 {
         height:20px;
         margin: 0 auto;
@@ -51,9 +65,9 @@
 
     .products {
         display: flex;
-
         flex-wrap: wrap;
     }
+
     .products_cards {
         display: flex;
         width: 170px;
@@ -61,33 +75,34 @@
 
     .card_item {
         width: 160px;
+        background: lightcoral;
     }
+
     .content_box__info {
         width: 90%;
+    }
 
-    }
     .box_picture {
-        background: aqua;
+        background: #c464b4;
     }
+
     .carousel {
         flex-direction: column;
         row-gap: 20px;
     }
-    .card_item {
-        background: lightcoral;
-    }
-    p {
-        text-align: justify;
-    }
+
     .description {
-        text-align: justify;
+        text-align: center;
         font-size: 16px;
+        line-height: 20px;
     }
+
     .icons {
         margin: 10px;
        flex-direction: column;
         row-gap: 5px;
     }
+
     ul.link_menu:hover {
         transition: 0.2s;
         color: lightcyan;
