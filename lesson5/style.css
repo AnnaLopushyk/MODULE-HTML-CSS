@@ -1,0 +1,282 @@
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light_grey {
+    background: lightgrey;
+}
+.dark_grey {
+    background: darkgray;
+}
+
+.container {
+}
+/*Header*/
+.header {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 70px;
+    border-bottom: 1px solid darkgray;
+}
+.header_top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    height: 50%;
+    column-gap: 5px;
+}
+
+.top_circle1, .top_circle2, .top_circle3, .footer_circle1, .footer_circle2, .footer_circle3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+    justify-content: flex-start;
+}
+.top_circle1 {
+    background: red;
+}
+.top_circle2 {
+    background: yellow;
+}
+.top_circle3 {
+    background: green;
+}
+.header-bottom {
+    height: 50%;
+    box-sizing: border-box;
+    column-gap: 5px;
+}
+.bottom_nav1, .bottom_nav2, .bottom_nav3 {
+    border-radius: 10px;
+    height: 20px;
+}
+.bottom_nav1 {
+    width: 100px;
+
+}
+.bottom_nav2 {
+    width: 50px;
+}
+.bottom_nav3 {
+    background: white;
+    width: 300px;
+}
+
+
+/*main box*/
+/*main_left*/
+
+.main_box {
+   flex-wrap: wrap;
+    height: 400px;
+    padding-bottom: 60px;
+    background: lightslategrey;
+}
+.main_left  {
+    width: 150px;
+
+}
+
+.main_left__circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.main_right {
+    width: 450px;
+    justify-content: space-evenly;
+    /*column-gap: 25px;*/
+    /*margin-left: 20px;*/
+
+
+}
+.main_right__item {
+    width: 80px;
+    height: 10px;
+}
+
+/*main_box---main_content*/
+
+.main_content {
+    width: 600px;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.main_content__partition1 {
+    width: 30%;
+    height: 20px;
+}
+
+.main_content__partition2 {
+    width: 50%;height: 20px;
+
+}
+
+.main_content__search {
+    width: 600px;
+}
+.button_search {
+    width: 65%;
+    height: 30px;
+    background: white;
+    border-radius: 20px;
+}
+.button_tap {
+    position: relative;
+    left: -35px;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    /*margin-left: 300px;*/
+}
+
+
+/*Destinations*/
+
+.destinations, .article, .offer_descriptions {
+    height: 150px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.destinations_title, .article_title, .title1 {
+    width: 65%;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.destinations_name1, .article_name1, .title2 {
+    width: 50%;
+    height: 20px;
+}
+.destinations_name2, .article_name2, .title3 {
+  width: 40%;
+    height: 20px;
+}
+.boxes {
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+}
+
+.box_level1, .box_level2, .box_level3 {
+    width: 600px;
+    height: 80px;
+    box-sizing: border-box;
+    column-gap: 10px;
+}
+
+.level1_top1, .level1_top2, .level1_top3, .level2_middle2, .level3_bottom1 {
+    width: 33.3%;
+    height: 100%;
+}
+
+.level2_middle1, .level3_bottom2 {
+    width: 66.6%;
+    height: 100%;
+}
+
+
+
+.box_text {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.text1 {
+    width: 100px;
+    height: 15px;
+}
+.text2 {
+    width: 70px;
+    height: 10px;
+}
+
+/*offers box*/
+.offers {
+    column-gap: 5px;
+}
+
+.offers_left {
+    width: 40%;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.images {
+    width: 180px;
+    height: 100px;
+}
+
+
+.offers_right {
+    row-gap: 5px;
+    width: 60%;
+
+}
+
+.offer_descriptions {
+    width: 340px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+}
+
+.title1, .title2, .title3 {
+    height: 10px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    margin-top: 10px;
+    background: lightslategrey;
+    column-gap: 50px;
+}
+.footer_left {
+    width: 390px;
+    height: 150px;
+    column-gap: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.footer_menu {
+    width: 110px;
+    height: 130px;
+    row-gap: 7px;
+    flex-direction: column;
+}
+.footer_item_title, .footer_item_list {
+    width: 85px;
+    height: 8px;
+    border-radius: 5px;
+}
+.footer_item_title {
+    width: 100px;
+}
+
+/*footer_right_menu*/
+.footer_right_menu {
+    width: 125px;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 75px;
+}
+.footer_right__name {
+    width: 80px;
+    height: 12px;
+}
+.footer_right__nav {
+    column-gap: 10px;
+}
+

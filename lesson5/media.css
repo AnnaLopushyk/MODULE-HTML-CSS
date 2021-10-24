@@ -1,0 +1,119 @@
+@media screen and (min-width: 415px) and (max-width: 480px) {
+
+    .header {
+        height: 100px;
+        justify-content: center;
+    }
+    .header_top {
+        height: 50px;
+        flex-direction: row-reverse;
+
+    }
+    .header-bottom {
+        height: 100px;
+        width: 480px;
+       justify-content: flex-end;
+        row-gap: 10px;
+    }
+    .top_circle1, .top_circle2, .top_circle3, .footer_circle1, .footer_circle2, .footer_circle3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border: 1px solid black;
+        }
+
+    .header-bottom {
+        height: 75px;
+    }
+    .bottom_nav1, .bottom_nav2, .bottom_nav3 {
+        border-radius: 10px;
+        height: 10px;
+    }
+
+    .bottom_nav1 {
+        width: 70px;
+
+    }
+    .bottom_nav2 {
+        width: 40px;
+    }
+    .bottom_nav3 {
+        background: white;
+        width: 180px;
+    }
+/*main-box*/
+    .main_box {
+        flex-wrap: wrap;
+        height: 240px;
+        padding-bottom: 60px;
+        background: lightslategrey;
+        row-gap: 15px;
+    }
+
+    .main_header {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .main_left__circle {
+        background: #bad780;
+    }
+    .main_right__item {
+        border-radius: 10px;
+        height: 20px;
+    }
+    .main_content__search {
+        width: 100%;
+    }
+    .button_search {
+        width: 250px;
+        height: 25px;
+        background: #aed8da;
+    }
+    .destinations, .article, .offer_descriptions {
+        background: #ffffff;
+    }
+    .article {
+        background: lightslategrey;
+    }
+    .destinations_title, .destinations_name1, .destinations_name2, .article_title, .article_name1, .article_name2 {
+        border-radius: 10px;
+    }
+
+    .images {
+        background: #aed8da;
+    }
+
+    .offer_descriptions {
+    background: white;
+    }
+    .footer {
+        column-gap: 30px;
+    }
+    .footer_left {
+        width: 290px;
+        height: 150px;
+        column-gap: 10px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer_right_menu {
+        width: 90px;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-bottom: 75px;}
+
+    .footer_right__name {
+        width: 40px;
+        height: 20px;
+        justify-content: center;
+    }
+
+    .footer_circle1, .footer_circle2, .footer_circle3 {
+        background: #93e3e7;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+    }
+
+}
