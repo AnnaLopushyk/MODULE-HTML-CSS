@@ -1,0 +1,95 @@
+
+@media screen and (min-width: 0) and (max-width: 480px) {
+
+
+    .header {
+        background: black;
+        display: flex;
+    }
+    .menu_left {
+        width: 10%;
+        height: 25%;
+    }
+    .nav_top, p {
+        background: lightyellow;
+    }
+
+    .menu_right {
+        flex-direction: column;
+    }
+
+    .icon {
+        padding-top: 10px;
+        background: yellow;
+        height: 45% ;
+    }
+    h1 {
+       height: 40px;
+    }
+    .nav_main {
+        background: lightgrey;
+    }
+    .nav_main>p {
+        background: aliceblue;
+        font-size: 16px;
+        color: darkslateblue;
+
+    }
+
+.main_place {
+   background: silver;
+}
+    .square_poz {
+        background: green;
+        height: 100%;
+        border-radius: 30%;
+    }
+    h3 {
+        height:20px;
+        margin: 0 auto;
+    }
+
+    .products {
+        display: flex;
+
+        flex-wrap: wrap;
+    }
+    .products_cards {
+        display: flex;
+        width: 170px;
+    }
+
+    .card_item {
+        width: 160px;
+    }
+    .content_box__info {
+        width: 90%;
+
+    }
+    .box_picture {
+        background: aqua;
+    }
+    .carousel {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .card_item {
+        background: lightcoral;
+    }
+    p {
+        text-align: justify;
+    }
+    .description {
+        text-align: justify;
+        font-size: 16px;
+    }
+    .icons {
+        margin: 10px;
+       flex-direction: column;
+        row-gap: 5px;
+    }
+    ul.link_menu:hover {
+        transition: 0.2s;
+        color: lightcyan;
+    }
+}
