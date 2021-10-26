@@ -1,0 +1,50 @@
+@media screen and (max-width: 400px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header_logo img {
+        width: 50px;
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header_top {
+        padding-top: 20px;
+    }
+
+    .nav_btn__mobile {
+        display: flex;
+    }
+
+    .offers {
+        display: flex;
+        text-align: center;
+    }
+    .offers_title {
+        font-weight: normal;
+        color: #D67E35;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+
+
+    .offers_title h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .offers_title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .offers_title p::before,
+    .offers_title p::after{
+        display: none;
+    }
+}
