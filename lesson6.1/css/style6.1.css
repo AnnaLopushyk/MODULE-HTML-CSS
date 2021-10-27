@@ -46,7 +46,6 @@ table {
 
 .wrapper {
     max-width: 1400px;
-    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -210,14 +209,14 @@ table {
 }
 
 .advantage {
-    left: 106px;
+    left: 116px;
 }
 .advantage2 {
-    left: 516px;
+    left: 526px;
 }
 
 .advantage3 {
-    left: 926px;
+    left: 936px;
 }
 
 img {
