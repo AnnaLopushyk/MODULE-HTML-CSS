@@ -51,7 +51,8 @@ table {
 }
 
 .header {
-    height: 100vh;
+    /*height: 100vh;*/
+    height: 800px;
     background: url("../images/bg.png") no-repeat center/cover;
 }
 
@@ -129,6 +130,9 @@ table {
     border-radius: 50px;
 }
 
+.offers{
+    margin-top: -100px;
+}
 
 .offers .header_button {
     margin-top: 35px;
@@ -191,15 +195,18 @@ table {
     justify-content: center;
 }
 .advantage_part {
-    height: 386px;
-    position: relative;
-    z-index: 1;
-    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -100px;
+    /*height: 386px;*/
+    /*position: relative;*/
+    /*z-index: 1;*/
+    /*background-color: #E5E5E5;*/
 }
 
 .advantage, .advantage2, .advantage3 {
-    position: absolute;
-    z-index: 2;
+    /*position: absolute;*/
+    /*z-index: 2;*/
     top: -110px;
     width: 349px;
     height: 328px;
@@ -210,14 +217,14 @@ table {
 }
 
 .advantage {
-    left: 116px;
+    left: 106px;
 }
 .advantage2 {
-    left: 526px;
+    left: 516px;
 }
 
 .advantage3 {
-    left: 936px;
+    left: 926px;
 }
 
 img {
@@ -225,7 +232,7 @@ img {
 }
 h4 {
     font-size: 26px;
-     margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .second_word {

@@ -71,3 +71,12 @@
 /*.advantage3 {*/
 /*    top: 540px;*/
 /*}*/
+/*.advantage_part{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.advantage, .advantage2, .advantage3 {*/
+/*    width: 330px;*/
+/*    height: 300px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
