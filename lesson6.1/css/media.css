@@ -8,7 +8,7 @@
     }
 
     .wrapper {
-        max-width: 340px;
+        max-width: 360px;
         padding: 0 10px;
     }
 
@@ -48,3 +48,25 @@
         display: none;
     }
 }
+
+
+
+/*.advantage, .advantage2, .advantage3 {*/
+/*    left: 30px;*/
+/*    width: 290px;*/
+/*    height: 276px;*/
+
+/*}*/
+
+/*.advantage {*/
+/*    top: -100px;*/
+
+/*}*/
+
+/*.advantage2 {*/
+/*    top: 220px;*/
+/*}*/
+
+/*.advantage3 {*/
+/*    top: 540px;*/
+/*}*/

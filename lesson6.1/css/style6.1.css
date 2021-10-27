@@ -138,7 +138,7 @@ table {
     font-weight: normal;
     color: #D67E35;
     margin-top: 203px;
-    margin-left: 100px;
+    margin-left: 60px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -190,3 +190,52 @@ table {
     display: flex;
     justify-content: center;
 }
+.advantage_part {
+    height: 386px;
+    position: relative;
+    z-index: 1;
+    background-color: #E5E5E5;
+}
+
+.advantage, .advantage2, .advantage3 {
+    position: absolute;
+    z-index: 2;
+    top: -110px;
+    width: 349px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.advantage {
+    left: 106px;
+}
+.advantage2 {
+    left: 516px;
+}
+
+.advantage3 {
+    left: 926px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 26px;
+     margin-bottom: 30px;
+}
+
+.second_word {
+    color: #BC9060;
+
+}
+p {
+    color:#656363;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+
