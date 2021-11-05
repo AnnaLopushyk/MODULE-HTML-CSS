@@ -1,16 +1,13 @@
 
+
 @media (max-width: 1920px) {
     .contact_menu_mobile {
         display: none;
     }
-
-    .news_mobile {
+    .main_news_day_mobile, .main_news1_day_mobile {
         display: none;
     }
-    .page_advertisment_mobile {
-        display: none;
 
-    }
 
     @media (min-width: 1920px) {
         .else {
@@ -28,21 +25,9 @@
 
         @media (max-width: 414px) {
 
-            .up_header {
-                display: none;
-            }
-
-            .catalog_cards {
-                display: none;
-            }
-
             .information, .cooperation, .header_right_menu {
                 display: none;
             }
-            .page_advertisment {
-                display: none;
-            }
-
 
             .location {
                 font-size: 12px;
@@ -50,9 +35,8 @@
             }
 
             .header {
-                margin: 20px 0;
+                margin: 0px auto;
                 padding-bottom: 20px;
-                /*margin-top: 60px;*/
             }
 
             .header_left {
@@ -260,22 +244,27 @@
             }
 
             /**-----------catalog--------------*!*/
-            .catalog_cards {
-                display: none;
-            }
 
-            .catalog_mobile {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+            .catalog {
                 column-gap: 10px;
             }
 
-            .catalog_unit_mobile {
-                padding: 0 10px;
+
+
+            .catalog_unit {
+                width: 185px;
+                height: 249px;
+                margin-left: 10px;
             }
 
+            .unit_zapchastyny {
+                width: 138px;
+                height: 120px;
+            }
 
+.img_diagram {
+    display: none;
+}
             .reviews, .rating {
                 font-size: 10px;
                 line-height: 12px;
@@ -297,45 +286,91 @@
                 padding: 0 10px;
                 font-size: 12px;
             }
+            /*----------page_advertisment---------*/
+            .advertisment_carousel {
+                width: 384px;
+                height: 195px;
+                background: no-repeat url("images.mobile/фон.png");
+                background-size: cover;
+            }
 
+            .arrow_right, .arrow_left {
+                display: none;
+            }
+
+            .image_zapchastyma {
+                width: 147px;
+                height: 125px;
+            }
+            .advertisment_left {
+                width: 100%;
+            }
+            .carousel_title h2 {
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            .carousel_sup_title {
+                font-size: 10px;
+                line-height: 12px;
+            }
+
+            .price {
+                font-size: 20px;
+                line-height: 23px;
+            }
+
+            .wrong_price {
+                font-size: 14px;
+                line-height: 16px;
+
+            }
+
+            .button_shop_cart {
+                max-width: 124px;
+                height: 34px;
+            }
+            .corousel_switch {
+                column-gap: 5px;
+            }
+
+            .switch_circle {
+                width: 12px;
+                height: 12px;
+            }
             /*-------------------------*/
             /*-----news------*/
             .border_bottom {
                 display: none;
             }
 
-            .data {
+            .news {
+                justify-content: flex-start;
+                flex-direction: column;
+                margin-top:50px;
+                align-items: flex-start;
                 margin-left: 10px;
             }
+            .main_news{
 
-            .news {
-                display: none;
             }
 
-            .news_mobile {
-                display: flex;
-                flex-direction: column;
-                /*row-gap: 20px;*/
-            }
 
             .link_item {
                 margin-top: 10px;
-            }
-
-            .news_title {
                 font-size: 16px;
-                line-height: 18px;
-                text-decoration: underline;
-                color: #005BB9;
+                line-height: 14px;
+            }
+            .link_description {
+                font-size: 14px;
+                line-height: 22px;
             }
 
-            .link_description_mobile {
-                font-size: 12px;
-                line-height: 18px;
-                font-weight: 500;
-                color: #242424;
-
+            .news_mark {
+                display: none;
             }
+
+
 
             .footer_menu, .footer_left_menu, .footer_right_menu, .footer_right_top {
                 flex-direction: column;
