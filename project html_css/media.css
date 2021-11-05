@@ -1,11 +1,3 @@
-@media screen and (min-width: 322px)
-{
-    .up_header {
-        display: none;
-
-}
-
-}
 
 @media (max-width: 1920px) {
     .contact_menu_mobile {
