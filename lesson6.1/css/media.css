@@ -7,11 +7,6 @@
         width: 50px;
     }
 
-    .wrapper {
-        max-width: 360px;
-        padding: 0 10px;
-    }
-
     .header_top {
         padding-top: 20px;
     }
@@ -31,9 +26,6 @@
         justify-content: center;
         margin-left: 0;
     }
-
-
-
     .offers_title h2 {
         font-size: 30px;
         line-height: 34px;
@@ -47,36 +39,17 @@
     .offers_title p::after{
         display: none;
     }
+
+    .advantage_part{
+        display: flex;
+        flex-direction: column;
+    }
+    .advantage, .advantage2, .advantage3 {
+        width: 330px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
 }
 
-/*.advantage_part {*/
-/*    height: 900px;*/
-/*}*/
 
-/*.advantage, .advantage2, .advantage3 {*/
-/*    left: 30px;*/
-/*    width: 290px;*/
-/*    height: 276px;*/
-/*}*/
 
-/*.advantage {*/
-/*    top: -100px;*/
-
-/*}*/
-
-/*.advantage2 {*/
-/*    top: 220px;*/
-/*}*/
-
-/*.advantage3 {*/
-/*    top: 540px;*/
-/*}*/
-/*.advantage_part{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
-/*.advantage, .advantage2, .advantage3 {*/
-/*    width: 330px;*/
-/*    height: 300px;*/
-/*    margin-bottom: 10px;*/
-/*}*/
