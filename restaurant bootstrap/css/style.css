@@ -1,0 +1,270 @@
+.container {
+    width: 1440px;
+    background: no-repeat url("../images/background.png");
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.cart_img {
+    width: 23px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.nav_border {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid white;
+    height: 50px;
+
+}
+
+.nav_phone_text {
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #FF7400;
+}
+
+.nav_phone {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.phone_number {
+    flex-direction: column;
+}
+
+.order {
+    max-width: 157px;
+    height: 47px;
+}
+
+.phone {
+    width: 23px;
+    height: 23px;
+}
+
+.card {
+    width: 50%;
+    background-color: unset;
+    margin-top: 204px;
+}
+
+.card_body {
+    display: block;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.card-text_welcome {
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+
+.card-title {
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    color: #fff;
+    background: #FF7400;
+    border-color: #FF7400;;
+}
+
+.card-text::before,
+.card-text::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+.card-text::before {
+    margin-right: 10px;
+}
+
+.card-text::after {
+    margin-left: 10px;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.card-img-top {
+    width: 126px;
+    height: 104px;
+}
+
+.benefit_title, .benefit_text {
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.word_change {
+    color: #BC9060;
+}
+
+.benefit-text {
+    color: #656363;
+}
+
+.card-group {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 30px;
+
+
+}
+
+.card_benefit {
+    max-width: 349px;
+    height: 328px;
+    display: inline-block;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+
+.navbar-light .navbar-toggler {
+    background: #FF7400;
+}
+
+
+.card-title_description {
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+
+}
+.card-text_description {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+.card_description {
+    width: 77%;
+    text-align: center;
+}
+.list-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.food_block {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    align-items: center;
+
+}
+.history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.first_column {
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container_footer {
+    background:no-repeat url("../images/footer_background.png");
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+}
+
+.zakaz {
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+}
+.footer_title {
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+}
+.footer_text {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
