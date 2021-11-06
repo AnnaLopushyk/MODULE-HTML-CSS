@@ -10,14 +10,15 @@
 
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="media.css">
 
     <title>bootstrap</title>
 </head>
 <body>
 
-<div class="header">
+<div class="header wrapper">
 
-    <header class="container">
+    <header class="container wrapper">
         <nav class="navbar navbar-expand-xl navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand me-5" href="#"><img src="images/Logo%204.png" alt="logo"></a>
@@ -80,7 +81,7 @@
 
     </header>
 
-    <div class="main_page">
+    <div class="main_page wrapper">
         <div class="row">
             <div class="col-xl-5 main_page-left">
                 <h1 fw-bold>Luftkondensierte
@@ -93,63 +94,64 @@
                 </p>
             </div>
             <div class="col-xl-7 main_page-right d-flex align-items-center">
-                <img src="images/Air%20Colled%20Chillers%20Small%20-%20MRS%20Transparent3_3%202.png" alt="Air_colled">
+                <img class="air_colled" src="images/Air%20Colled%20Chillers%20Small%20-%20MRS%20Transparent3_3%202.png"
+                     alt="Air_colled">
             </div>
         </div>
 
     </div>
 
-        <div class="row">
+    <div class="row">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col col-xl-7 d-flex align-items-center justify-content-center">
-                        <img src="images/Multistage%20MSW-MSA%20-%20Refrigeration%20Systems%201.png"
-                             alt="Refrigeration">
-                    </div>
-                    <div class="col col-xl-5">
-                        <h3 fw-bold>ENERGIEEFFIZIENZ IM FOKUS</h3>
-                        <p class="description-text">Bei der Anschaffung sollte deshalb besonders auf <span
-                                class="fw-bold">energieeffiziente Systeme</span> geachtet werden,
-                            denn die Betriebskosten der Anlage überschreiten
-                            erfahrungsgemäß über die Lebensdauer hinweg die einmaligen Anschaffungskosten um ein
-                            vielfaches.
-                        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col col-xl-7 d-flex align-items-center justify-content-center">
+                    <img class="refrigirator" src="images/Multistage%20MSW-MSA%20-%20Refrigeration%20Systems%201.png"
+                         alt="Refrigeration">
+                </div>
+                <div class="col col-xl-5">
+                    <h3 fw-bold>ENERGIEEFFIZIENZ IM FOKUS</h3>
+                    <p class="description-text">Bei der Anschaffung sollte deshalb besonders auf <strong>energieeffiziente
+                        Systeme</strong> geachtet werden,
+                        denn die Betriebskosten der Anlage überschreiten
+                        erfahrungsgemäß über die Lebensdauer hinweg die einmaligen Anschaffungskosten um ein
+                        vielfaches.
+                    </p>
 
-                        <p class="description-text">Insofern sind die Themen Kompressortechnik und Einsatz von
-                            Freikühlung von besonderer
-                            Bedeutung, sowie Steuer- und Regelungstechnik besonders wichtig.
-                        </p>
-                    </div>
+                    <p class="description-text">Insofern sind die Themen Kompressortechnik und Einsatz von
+                        Freikühlung von besonderer
+                        Bedeutung, sowie Steuer- und Regelungstechnik besonders wichtig.
+                    </p>
                 </div>
             </div>
-
         </div>
+
+    </div>
 
     <div class="page">
         <div class="row">
-            <div class="col-5">
-                <img src="images/asv4sabu%203.png" alt="zavod">
+            <div class="col-6">
+                <img class="zavod_img" src="images/asv4sabu%203.png" alt="zavod">
             </div>
 
-            <div class="col-7">
+            <div class="col-6 fon_column">
                 <h3 class="fw-bold d-flex ">MODERNSTE STANDARDS</h3>
-                <div class="container_box">
-                    <p class="container_text fw-normal">Aktuelle Richtlinien und Verordnungen bezüglich des <span class="fw-bold">Kältemittel
-                        Phase-Downs</span>
-                    müssen berücksichtigt
-                    werden. Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen als auch
-                    strategischen Gesichtspunkten entschieden werden.
-                </p>
+                <p class="container_text fw-normal">Aktuelle Richtlinien und Verordnungen bezüglich des <strong>Kältemittel
+                    Phase-Downs</strong>
+                        müssen berücksichtigt
+                        werden. Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen als auch
+                        strategischen Gesichtspunkten entschieden werden.
+                    </p>
 
-                    <p class="container_text fw-normal">Alle unsere Kältemaschinen entsprechen dem modernsten Stand der Technik
+                    <p class="container_text fw-normal">Alle unsere Kältemaschinen entsprechen dem modernsten Stand der
+                        Technik
                         und werden in den
                         unterschiedlichsten Branchen eingesetzt. Unser Angebot umfasst ein <span class="fw-bold">breites Sortiment an
                             natürlichen
                             und frigenen Kältemitteln,</span>
                         die den aktuellsten Normen und Verordnungen entsprechen.
                     </p>
-                </div>
+               
 
             </div>
 
@@ -159,14 +161,14 @@
     </div>
 
 
-
-
-    <div class="section">
+    <div class="section wrapper">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-5 section_content">
-                <h3 class="fw-bold">Unsere Spezialität besteht aus unseren Kaltwassersätzen mit integrierter Freikühleinheit.</h3>
+                <h3 class="fw-bold">Unsere Spezialität besteht aus unseren Kaltwassersätzen mit integrierter
+                    Freikühleinheit.</h3>
 
-                <div class="section_text"><p>Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente
+                <div class="section_text"><p>Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser
+                    energiesparend über ambiente
                     Umgebungsluft.
                 </p>
                     <p><span class="fw-bold">Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung. Diese
@@ -177,11 +179,186 @@
                 </div>
             </div>
             <div class="col-7 section_image">
-                <img src="images/IconHotToCold%201.png" alt="hot to cold">
+                <img class="equal" src="../lesson6.bootstrap/images/IconHotToCold%20обр.png" alt="hot to cold">
             </div>
         </div>
 
     </div>
+
+    <h2>IHRE VORTEILE</h2>
+
+    <div class="ihre_vorteile_position wrapper">
+
+        <div class="card_list">
+
+            <img src="images/image_icons/rectangle.png" class="img-fluid icons" alt=rectangle">
+            <p class="card-text">Geringe Stellfläche</p>
+
+        </div>
+        <div class="card_list">
+            <img src="images/image_icons/snowflake.png" class="img-fluid icons" alt="snowflake">
+            <p class="card-text">Mit und ohne integrierter Freikühlung</p>
+        </div>
+        <div class="card_list">
+            <img src="images/image_icons/flower.png" class="img-fluid icons" alt="flower">
+            <p class="card-text">Für Außentemperaturen bis +55°C</p>
+        </div>
+        <div class="card_list">
+
+            <img src="images/image_icons/house_tree.png" alt="house_tree">
+            <p class="card-text">Für Außen- und Innenaufstellung erhältlich</p>
+        </div>
+        <div class="card_list">
+
+            <img src="images/image_icons/car.png" alt="car">
+            <p class="card-text">MBetriebsbereit bei Anlieferung</p>
+
+        </div>
+        <div class="card_list">
+            <img src="images/image_icons/energy.png" class="img-fluid icons" alt="energy">
+            <p class="card-text">Automatische Freikühlschaltung für verringerten Energieverbrauch</p>
+        </div>
+        <div class="card_list">
+
+            <img src="images/image_icons/diamond.png" class="img-fluid icons" alt="diamond">
+            <p class="card-text">Robustes Gehäuse für Außenaufstellung</p>
+
+        </div>
+        <div class="card_list">
+            <img src="images/image_icons/no_sound.png" alt="no_sound">
+            <p class="card-text">Geringe Schallemissionen</p>
+
+        </div>
+        <div class="card_list">
+
+            <img src="images/image_icons/weather.png" class="img-fluid icons" alt="weather">
+            <p class="card-text">Wetterfest und Langlebig</p>
+
+        </div>
+        <div class="card_list">
+
+            <img src="images/image_icons/other.png" class="img-fluid icons" alt="other">
+            <p class="card-text">Erhöhte Betriebssicherheit</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="border">
+        <h2>HAUPTMERKMALE</h2>
+        <div class="ordered_list wrapper">
+            <div class="first_column">
+                <img class="first_column_img" src="images/image_icons/first_column.png" alt="first_column">
+            </div>
+            <div class="second_column">
+                <img class="second_column_img" src="images/image_icons/second_column.png" alt="second_column">
+            </div>
+        </div>
+    </div>
+
+    <div class="review_product wrapper">
+
+        <h3 class="title">BILDER</h3>
+        <div><img class="bigger" src="images/image_icons/figer.png" alt="figer"></div>
+
+        <div class="pointer_click">
+            <div class="switch">
+                <span class="circle_switch_dot bg-dark"></span>
+                <span class="circle_switch_dot"></span>
+                <span class="circle_switch_dot"></span>
+            </div>
+
+            <div class="arrows">
+                <button class="arrow_left"><img src="images/image_icons/left.png" alt="left_arrow"></button>
+                <button class="arrow_right"><img src="images/image_icons/right.png" alt=""></button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <h2>BESUCHER DIESER SEITE SUCHTEN AUCH OFT NACH:</h2>
+
+    <div class="button_click">
+
+        <button type="button" class="btn btn-primary">GLYKOLWANNEN</button>
+        <button type="button" class="btn btn-primary">WASSERAUFBEREITUNG</button>
+        <button type="button" class="btn btn-primary">ROHRLEITUNGSBAU</button>
+        <button type="button" class="btn btn-primary">Wärmemengenmessungen</button>
+        <button type="button" class="btn btn-primary">ANLAGELEASING</button>
+
+    </div>
+
+
+    <div class="contact_adreess wrapper">
+        <div class="row_adreess">
+
+
+            <div class="two_colums">
+                <div class="col">
+                    <p class="col_text fw-bold">Jetzt Termin vereinbaren!</p>
+                </div>
+
+                <div class="col">
+                    <div class="middle_column">
+                        <p class="middle_column_text">Gerne stehen wir Ihnen für eine individuelle Beratung telefonisch
+                            und
+                            vor Ort zur Verfügung und
+                            freuen uns über Ihre Kontaktaufnahme. Sprechen Sie uns an! Fragen Sie nach einem Rückruf
+                            oder
+                            kontaktieren Sie uns unter: <a href="#">info@elsasser-technik.de</a></p>
+                        <button type="button" class=" btn-primary"><img class="Arrow" src="images/image_icons/Arrow.png"
+                                                                        alt="Arrow">Kontakt
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="col">
+                <img class="logo3" src="images/image_icons/Logo3.png" alt="Logo">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer wrapper">
+
+        <div class="row_footer">
+
+            <div class="col_footer">
+                <p class="footer_title">Elsässer Kältetechnik</p>
+                <p class="footer_text">Königsallee 14</p>
+                <p class="footer_text">40212 Düsseldorfl</p>
+            </div>
+
+            <div class="col_footer">
+                <p class="footer_title">Kontakt</p>
+                <p class="footer_text">Telefon: +49 (0) 211 9232 3052</p>
+                <p class="footer_text">E-Mail: <a href="#">info@elsasser-technik.de</a></p>
+
+            </div>
+
+            <div class="col_footer">
+                <p class="footer_title">Shortlinks</p>
+                <p class="footer_text">Kontakt</p>
+                <p class="footer_text">Rückruf vereinbaren</p>
+
+            </div>
+
+            <div class="col_footer last_column">
+
+                <p class="footer_text">Impressum</p>
+                <p class="footer_text">Datenschutz</p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
