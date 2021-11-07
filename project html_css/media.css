@@ -1,12 +1,5 @@
 
 
-@media (max-width: 1920px) {
-    .contact_menu_mobile {
-        display: none;
-    }
-    .main_news_day_mobile, .main_news1_day_mobile {
-        display: none;
-    }
 
 
     @media (min-width: 1920px) {
@@ -16,8 +9,6 @@
         .catalog_cards_mobile {
             display: none;
         }
-
-    }
 
     }
 
@@ -33,6 +24,7 @@
                 font-size: 12px;
                 line-height: 14px;
             }
+
 
             .header {
                 margin: 0px auto;
@@ -52,15 +44,14 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                padding: 0;
+                padding-right: 10px;
             }
 
             .schedule, .contact_street {
                 display: none;
             }
 
-            .contact_menu {
-                display: none;
-            }
 
             .contact_menu_mobile {
                 display: flex;
@@ -69,6 +60,9 @@
                 column-gap: 75px;
             }
 
+            .nav_mobile {
+                flex-direction: column;
+            }
             .contact_menu_left {
                 display: flex;
 
@@ -419,4 +413,219 @@
                 margin-right: 15px;
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 768px) {
+.wrap {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+       .header_right_menu {
+            display: none;
+        }
+
+        .location {
+            display: flex;
+        }
+.location a {
+    margin-right: 10px;
+}
+        .header_left {
+            column-gap: 0;
+        }
+
+        .location, .information, .cooperation {
+            margin-right: 20px;
+            width: 141px;
+            height: 17px;
+        }
+
+        .menu_top {
+            margin: 10px 10px;
+        }
+
+.nav_mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_menu {
+    column-gap: 70px;
+}
+
+.catalog_list {
+    display: none;
+}
+.arrow_left, .arrow_right {
+    display: none;
+}
+
+  .carousel_title h2 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.carousel_sup_title {
+    font-size: 16px;
+    line-height: 19px;
+}
+.price {
+    font-size: 30px;
+    line-height: 35px;
+
+}
+.wrong_price {
+    font-size: 18px;
+    line-height: 21px;
+}
+  .image_zapchastyma {
+      width: 222px;
+      height: 188px;
+ }
+
+  .product_title {
+      width: 239px;
+      height: 168px;
+  }
+.page_advertisment {
+    display: flex;
+    }
+
+        .advertisment_carousel {
+            width: 479px;
+            height: 345px;
+            background: no-repeat url("images.mobile/фон.png");
+            background-size: cover;
+            border-radius: 10px;
+        }
+
+      .advertisment_left{
+      flex-wrap: nowrap;
+}
+
+      .product_cards {
+          padding: 0;
+      }
+
+      .product_description img {
+          width: 70px;
+          height: 65px;
+      }
+      .product_description p {
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 20px;
+      }
+.cart {
+    width: 40px;
+    height: 40px;
+}
+.product_card p {
+    font-size: 18px;
+    line-height: 21px;
+}
+.product_title {
+    padding: 10px;
+}
+.previous, .next {
+    display: none;
+}
+.box_description h3 {
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.box_description p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.maslo_filtr_radiator {
+    width: 95px;
+    height: 125px;
+}
+
+.slider_box {
+     width: 292px;
+     height: 149px;
+    column-gap: 0px;
+    padding-left: 10px;
+ }
+.slider_list {
+    column-gap: 10px;
+}
+
+.buttons_item1, .buttons_item {
+    font-size: 16px;
+    line-height: 19px;
+}
+.news_mobile {
+    display: none;
+}
+.button_buying_show {
+    margin: 0;
+
+}
+        .news {
+            align-items: unset;
+        }
+
+        .footer_menu {
+            flex-direction: column;
+        }
+
+        .footer_left_menu {
+            width: 100%;
+        }
+
+        .footer_right_menu {
+            width: 100%;
+        }
+        .footer_right_top {
+            justify-content: flex-start;
+        }
+
+        .footer_right_info {
+            flex-direction: column;
+        }
+
+.footer_window {
+    display: flex;
+}
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

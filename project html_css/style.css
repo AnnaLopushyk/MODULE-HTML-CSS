@@ -27,225 +27,6 @@
     color: white;
 }
 
-/*-------------------UP_header--------------------*/
-
-/*--------up_header_top-----------------*/
-
-.up_header__top {
-    max-width: 555px;
-    height: 90px;
-    background: #FFFFFF;
-    border: 1px solid #005BB9;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-left: 920px;
-    margin-bottom: 84px;
-}
-.top_cart {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    column-gap: 10px;
-    position: relative;
-    padding-top: 15px;
-
-}
-
-.close {
-    position: absolute;
-    right: 10px;
-    top: 5px;
-}
-
-.cart_title h4 {
-    font-family: Roboto;
-    margin-bottom: 7px;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 20px;
-    color: #005BB9;
-}
-.cart_title p {
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    color: #0F2438;
-    margin-top: 7px;
-}
-.cart_title h4:hover{
-    text-decoration: underline;
-   color: #005BB9;
-    cursor: pointer;
-}
-.cart_title p:hover{
-    text-decoration: underline;
-    color: #005BB9;
-    cursor: pointer;
-}
-
-
-
-/*-------Up_header_bottom*/
-.city, .number {
-    width: 320px;
-    height: 299px;
-    background: #FFFFFF;
-    border-radius: 6px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-
-}
-.number {
-    margin-left: 60px;
-}
-.city_title, .number_title {
-    display: flex;
-    justify-content: space-between;
-     align-items: flex-start;
-}
-.city_title h2, .number_title h2 {
-    margin-left: 20px;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    margin-top: 24px;
-
-    color: #0F2438;
-}
-.city_title img, .number_title img {
-    margin: 24px 20px 0 0;
-}
-.image_close:hover {
-    cursor: pointer;
-   background: blue;
-}
-.city_field {
-    max-width: 280px;
-    height: 44px;
-    background: #F4F5FA;
-    border-radius: 6px;
-    margin-left: 20px;
-    justify-content:flex-start;
-    margin-top: 15px;
-
-}
-.text {
-    font-size: 14px;
-    line-height: 16px;
-    color: #C2C5DA;
-    margin-left: 14px;
-}
-.city_list_item, .result_info {
-    margin-top: 15px;
-    list-style: none;
-}
-.list_item {
-    font-family: Roboto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 3px;
-
-}
-.list_item:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-.number_name, .number_phone {
-    position: relative;
-    max-width: 280px;
-    height: 53px;
-    background: #FFFFFF;
-    border: 1px solid #E1E5F8;
-    box-sizing: border-box;
-    border-radius: 6px;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-.number_phone {
-    justify-content: flex-start;
-  padding-left: 18px;
-}
-.number_phone a {
-    border: 0.3px solid #EEEEEE;
-    box-sizing: border-box;
-}
-.name {
-    position: absolute;
-    top: -9px;
-    left: 20px;
-    font-size: 14px;
-    line-height: 16px;
-    color: #AEB5D5;
-}
-.country_flag {
-    border: 0.3px solid #EEEEEE;
-    box-sizing: border-box;
-}
-.border {
-    width: 1px;
-    height: 30px;
-    background: #E1E5F8;
-    margin-left: 18px;
-}
-.kod {
-    margin-left: 20px;
-}
-.nomer {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    color: #AEB5D5;
-    margin-left: 4px;
-}
-.number_btn {
-    width: 280px;
-    height: 53px;
-    background: #005BB9;
-    border-radius: 6px;
-    margin: 24px 20px;
-}
-.number_btn_text {
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-}
-.result {
-    width: 571px;
-    height: 274px;
-    background: #FFFFFF;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    margin-left: 100px;
-}
-ul h2 {
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: #A29DBC;
-}
-.result__item {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    color: #0F2438;
-    padding-top: 15px;
-}
-.item:hover{
-    text-decoration: underline;
-}
-.first_line {
-    width: 100%;
-    height: 39px;
-    background: #F4F5FA;
-}
-
 
 /*----------------------------------------------------------*/
 /*----------Header------------------------------------------*/
@@ -363,7 +144,11 @@ ul h2 {
 .mobile {
     color: #0F2438;
 }
-
+.nav_mobile {
+    display: flex;
+    column-gap: 65px;
+    align-items: center;
+}
 
 /*--------header_buttons-----------_*!*/
 
@@ -451,6 +236,11 @@ ul h2 {
 .button_right__nav img {
     margin-right: 10px;
 }
+.location {
+    display: flex;
+    column-gap: 20px;
+}
+
 
 /*----------page_advertise----------------------------*/
 
