@@ -51,6 +51,9 @@
             .schedule, .contact_street {
                 display: none;
             }
+            .contact_menu {
+                column-gap: 0;
+            }
 
 
             .contact_menu_mobile {
@@ -156,7 +159,9 @@
             .carousel_title_mobile {
                 line-height: 10px;
             }
-
+          .advertisment_left {
+              column-gap: 0;
+          }
 
             .carousel_title_mobile h2 {
                 font-weight: 500;
@@ -256,9 +261,9 @@
                 height: 120px;
             }
 
-.img_diagram {
-    display: none;
-}
+            .img_diagram {
+                display: none;
+            }
             .reviews, .rating {
                 font-size: 10px;
                 line-height: 12px;
@@ -427,7 +432,7 @@
 
 
 
-    @media (max-width: 768px) {
+    @media (max-width: 768px) and (min-width: 430px){
 .wrap {
     margin: 0 auto;
     overflow: hidden;
@@ -603,9 +608,6 @@
 .footer_window {
     display: flex;
 }
-
-
-
 
 
     }
